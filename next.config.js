@@ -9,6 +9,11 @@ const nextConfig = {
       "firebasestorage.googleapis.com",
     ],
   },
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
+  },
 };
 
 module.exports = nextConfig;

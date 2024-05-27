@@ -6,7 +6,7 @@ import User from "@/models/User";
 export const POST = async (req) => {
   const { name, email, password } = await req.json();
   await connectDB();
-
+  console.log("wow wtf")
   try {
     if (!name || !email || !password) {
       return NextResponse.json({
@@ -15,6 +15,7 @@ export const POST = async (req) => {
       });
     } else {
       const existingUser = await User.findOne({ email: email });
+      console.log("🚀 ~ POST ~ existingUser:", existingUser)
       if (existingUser) {
         return NextResponse.json({
           message: "User already exists",
@@ -27,6 +28,7 @@ export const POST = async (req) => {
           email,
           password: hashedPassword,
         });
+        console.log("🚀 ~ POST ~ user:", user)
         if (user) {
           return NextResponse.json({
             status: 201,

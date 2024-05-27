@@ -37,7 +37,7 @@ const Products = () => {
           </span>
         </h1>
       </div>
-      <div className="w-full p-2 m-2 bg-white rounded-lg shadow-lg">
+      <div className="w-full p-2 m-2 bg-white rounded-lg shadow-lg container">
         <div className="grid grid-cols-4 gap-4 p-4 bg-gray-800 rounded-lg text-white">
           <div className="font-bold">Image</div>
           <div className="font-bold">Product Name</div>

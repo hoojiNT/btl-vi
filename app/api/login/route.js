@@ -15,7 +15,9 @@ export const POST = async (req) => {
         status: 400,
       });
     } else {
-      const user = await User.findOne({ email });
+      const user = await User.findOne({ email: email });
+      console.log("🚀 ~ POST ~ user:", user);
+      console.log("🚀 ~ POST ~ email:", email);
       if (!user) {
         return NextResponse.json({
           status: 400,
@@ -42,6 +44,7 @@ export const POST = async (req) => {
       }
     }
   } catch (error) {
+    console.log("🚀 ~ POST ~ error:", error);
     return NextResponse.json({
       status: 400,
       message: "Something went wrong",

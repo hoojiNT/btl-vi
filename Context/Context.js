@@ -62,6 +62,7 @@ const ContextProvider = ({ children }) => {
 
     try {
       const response = await axios.post("/api/login", login);
+      console.log("🚀 ~ handleLoginSubmit ~ response:", response)
 
       setLoading(false);
       setError(response.data.status !== 201);

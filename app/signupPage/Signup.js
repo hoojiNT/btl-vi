@@ -138,7 +138,6 @@ const Signup = () => {
                     type="checkbox"
                     id="MarketingAccept"
                     name="marketing_accept"
-                    required
                     className="h-5 w-5 rounded-md border-gray-200 bg-white border shadow-sm"
                   />
 
