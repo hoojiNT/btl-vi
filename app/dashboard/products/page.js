@@ -39,10 +39,10 @@ const Products = () => {
       </div>
       <div className="w-full p-2 m-2 bg-white rounded-lg shadow-lg container">
         <div className="grid grid-cols-4 gap-4 p-4 bg-gray-800 rounded-lg text-white">
-          <div className="font-bold">Image</div>
-          <div className="font-bold">Product Name</div>
-          <div className="font-bold">Price</div>
-          <div className="font-bold">Category</div>
+          <div className="font-bold">Hình ảnh</div>
+          <div className="font-bold">Tên sản phẩm</div>
+          <div className="font-bold">Giá</div>
+          <div className="font-bold">Danh mục</div>
         </div>
 
         {currentItems.length ? (

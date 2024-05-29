@@ -27,7 +27,7 @@ const Header = () => {
       <header className="bg-white ">
         <div className="mx-auto flex h-16 max-w-screen-2xl items-center gap-8 px-4 sm:px-6 lg:px-8">
           <Link className="block text-teal-600" href="/">
-            <span className="sr-only">Home</span>
+            <span className="sr-only">Trang chủ</span>
             <svg
               id="logo-70"
               width="78"
@@ -58,7 +58,7 @@ const Header = () => {
                     className="text-gray-800 transition hover:text-gray-800/75 "
                     href="/about"
                   >
-                    About
+                    Về chúng tôi
                   </Link>
                 </li>
 
@@ -70,7 +70,7 @@ const Header = () => {
                     href={"/category"}
                     className="text-gray-800 transition hover:text-gray-800/75 cursor-pointer "
                   >
-                    Categories
+                    Danh mục
                   </Link>
 
                   {isHovered && (
@@ -97,7 +97,7 @@ const Header = () => {
                     className="text-gray-800 transition hover:text-gray-800/75 "
                     href="/products"
                   >
-                    Products
+                    Sản phẩm
                   </Link>
                 </li>
 
@@ -106,7 +106,7 @@ const Header = () => {
                     className="text-gray-800 transition hover:text-gray-800/75 "
                     href="/contact"
                   >
-                    Contact
+                    Liên hệ
                   </Link>
                 </li>
                 {user?.data?.isAdmin && (
@@ -138,7 +138,7 @@ const Header = () => {
                     onClick={handleLogout}
                     className="hidden cursor-pointer md:block rounded-md bg-[#2f4550] px-5 py-2.5 text-sm font-medium text-white transition hover:bg-[#1c2930] "
                   >
-                    Logout
+                    Đăng xuất
                   </span>
                 </div>
               ) : (
@@ -147,14 +147,14 @@ const Header = () => {
                     href="/loginpage"
                     className="block rounded-md bg-[#2f4550] px-5 py-2.5 text-sm font-medium text-white transition hover:bg-[#1c2930] "
                   >
-                    Login
+                    Đăng nhập
                   </Link>
 
                   <Link
                     className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#2f4550] transition hover:text-[#2f4550]/75 sm:block"
                     href="/signupPage"
                   >
-                    Register
+                    Đăng ký
                   </Link>
                 </div>
               )}
@@ -163,7 +163,7 @@ const Header = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75  md:hidden"
               >
-                <span className="sr-only">Toggle menu</span>
+                <span className="sr-only">Menu</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"

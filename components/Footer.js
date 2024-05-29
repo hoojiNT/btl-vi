@@ -18,7 +18,7 @@ const Footer = () => {
                 for more information about our services and products, please
                 visit our website{" "}
                 <a
-                  href="https://github.com/riteshk-007/nextjs-store"
+                  href="#"
                   className="text-[#F59E0B]"
                   target="_blank"
                 >
@@ -68,7 +68,7 @@ const Footer = () => {
               <p>
                 <span className="text-xs uppercase tracking-wide text-gray-500">
                   {" "}
-                  Call us{" "}
+                  Gọi cho chúng tôi{" "}
                 </span>
 
                 <a
@@ -150,7 +150,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="https://github.com/riteshk-007"
+                    href="#"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75"
@@ -176,7 +176,7 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-                <p className="font-medium text-gray-900">Services</p>
+                <p className="font-medium text-gray-900">Dịch vụ</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
@@ -185,7 +185,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Clothing Style
+                      Thời trang
                     </a>
                   </li>
 
@@ -195,7 +195,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Fashion Design
+                      Thiết kế Thời trang
                     </a>
                   </li>
 
@@ -205,7 +205,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Design
+                      Thiết kế
                     </a>
                   </li>
 
@@ -215,7 +215,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Branding
+                      Thương hiệu
                     </a>
                   </li>
 
@@ -225,14 +225,14 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Marketing
+                      Quảng bá
                     </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <p className="font-medium text-gray-900">Company</p>
+                <p className="font-medium text-gray-900">Công ty</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
@@ -241,7 +241,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      About{" "}
+                      Về chúng tôi{" "}
                     </a>
                   </li>
 
@@ -251,7 +251,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Contact{" "}
+                      Liên hệ{" "}
                     </a>
                   </li>
 
@@ -261,7 +261,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:opacity-75"
                     >
                       {" "}
-                      Accounts Review{" "}
+                      Review{" "}
                     </a>
                   </li>
                 </ul>
@@ -278,7 +278,7 @@ const Footer = () => {
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
-                    Terms & Conditions{" "}
+                    Điều khoản sử dụng{" "}
                   </a>
                 </li>
 
@@ -288,7 +288,7 @@ const Footer = () => {
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
-                    Privacy Policy{" "}
+                    Chính sách{" "}
                   </a>
                 </li>
 
@@ -304,7 +304,7 @@ const Footer = () => {
               </ul>
 
               <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-                &copy; 2024. Ritesh Clothing Store . All rights reserved.
+                &copy; 2024. Đại Nam university. All rights reserved.
               </p>
             </div>
           </div>

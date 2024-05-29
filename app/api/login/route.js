@@ -21,14 +21,14 @@ export const POST = async (req) => {
       if (!user) {
         return NextResponse.json({
           status: 400,
-          message: "User not found",
+          message: "Không thấy người dùng",
         });
       } else {
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) {
           return NextResponse.json({
             status: 400,
-            message: "Invalid password",
+            message: "Sai mật khẩu",
           });
         } else {
           const authToken = jwt.sign({ id: user._id }, process.env.JWT_SECRET);
@@ -39,7 +39,7 @@ export const POST = async (req) => {
         }
         return NextResponse.json({
           status: 201,
-          message: "User login successfully",
+          message: "Đăng nhập thành công",
         });
       }
     }

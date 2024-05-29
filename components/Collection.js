@@ -7,12 +7,14 @@ const Collection = () => {
       <div className="mx-auto  lg:w-10/12 px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
           <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-            New Collection
+            Bộ sưu tập mùa mới
           </h2>
 
           <p className="mx-auto mt-4 max-w-md text-gray-500">
-            For unique and stylish clothing, shoes and accessories in the
-            collection you can select the best one for you.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
         </header>
 
@@ -33,7 +35,7 @@ const Collection = () => {
                 </h3>
 
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white rounded">
-                  Shop Now
+                  Xem thêm
                 </span>
               </div>
             </Link>
@@ -55,7 +57,7 @@ const Collection = () => {
                 </h3>
 
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white rounded">
-                  Shop Now
+                  Xem thêm
                 </span>
               </div>
             </Link>
@@ -77,7 +79,7 @@ const Collection = () => {
                 </h3>
 
                 <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white rounded">
-                  Shop Now
+                  Xem thêm
                 </span>
               </div>
             </Link>

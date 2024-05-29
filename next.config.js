@@ -7,6 +7,7 @@ const nextConfig = {
       "i.ibb.co",
       "i.postimg.cc",
       "firebasestorage.googleapis.com",
+      "product.hstatic.net"
     ],
   },
   logging: {
